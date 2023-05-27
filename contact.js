@@ -1,6 +1,4 @@
   // CDN Link
-const head = document.getElementsByTagName("head")[0];
- 
 const css = [  "https://cdn.jsdelivr.net/gh/raghavendratechnic/web-m.rtw@main/contact.min.css",
 ];
 
