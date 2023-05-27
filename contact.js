@@ -1,15 +1,3 @@
-  // CDN Link
-const css = [  "https://cdn.jsdelivr.net/gh/raghavendratechnic/web-m.rtw@main/contact.min.css",
-];
-
-css.forEach(function(css) {
-  const link = document.createElement("link");
-  link.rel = "stylesheet";
-  link.type = "text/css";
-  link.href = css;
-  head.appendChild(link);
-});
-
 document.getElementById("contactForm").addEventListener("submit", function(event) {
   event.preventDefault(); // Prevent form submission
 
